@@ -1,0 +1,57 @@
+:root {
+  --green: #1db954;
+  --dark: #181818;
+  --light: #282828;
+  --lightest: #b3b3b3;
+  --darkest: #191414;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: inherit;
+}
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: 'Helvetica';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+input {
+  outline: none;
+  word-break: break-all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+label {
+  font-weight: 600;
+}
