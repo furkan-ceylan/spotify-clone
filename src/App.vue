@@ -1,32 +1,23 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div class="app">
+    <div class="app2">
+      <router-view />
     </div>
-    <router-view/>
+    <div class="footer">
+      <Footer />
+    </div>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<style scoped>
+.app {
+  height: 100vh;
+  background-color: var(--dark);
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.app2 {
+  height: 88vh;
+  background-color: #121212;
+  display: flex;
 }
 </style>
