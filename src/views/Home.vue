@@ -1,18 +1,35 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="sidebar">
+      <Sidebar />
+    </div>
+    <div class="header"></div>
+    <!-- <div class="content">asdss</div> -->
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+  components: { Sidebar, Footer },
 }
 </script>
+
+<style scoped>
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  background-color: #212121;
+}
+</style>
