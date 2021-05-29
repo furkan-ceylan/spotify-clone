@@ -93,7 +93,7 @@ export default {
 <style>
 .sidebar {
   background-color: #000000;
-  width: 300px;
+  width: 230px;
   height: 100%;
   flex: none;
   color: white;
@@ -123,7 +123,7 @@ export default {
   display: flex;
   flex-direction: column;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .on-page {
@@ -173,7 +173,7 @@ export default {
   justify-content: flex-start;
   margin-bottom: 1rem;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -202,7 +202,7 @@ export default {
 .playlist {
   padding-bottom: 1rem;
   color: var(--lightest);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .playlist:hover {
