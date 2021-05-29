@@ -40,56 +40,166 @@
         <div class="content-playlists">
           <div class="playlist-card">
             <div class="playlist-card-left">
-              <img src="../assets/create.png" />
+              <img src="../assets/album2.jpg" />
               <h4>Playlist Name</h4>
             </div>
             <div class="card-play-button">
-              <i class="material-icons">keyboard_arrow_right</i>
+              <i class="material-icons">play_arrow</i>
             </div>
           </div>
           <div class="playlist-card">
             <div class="playlist-card-left">
-              <img src="../assets/create.png" />
+              <img src="../assets/album2.jpg" />
               <h4>Playlist Name</h4>
             </div>
             <div class="card-play-button">
-              <i class="material-icons">keyboard_arrow_right</i>
+              <i class="material-icons">play_arrow</i>
             </div>
           </div>
           <div class="playlist-card">
             <div class="playlist-card-left">
-              <img src="../assets/create.png" />
+              <img src="../assets/album2.jpg" />
               <h4>Playlist Name</h4>
             </div>
             <div class="card-play-button">
-              <i class="material-icons">keyboard_arrow_right</i>
+              <i class="material-icons">play_arrow</i>
             </div>
           </div>
           <div class="playlist-card">
             <div class="playlist-card-left">
-              <img src="../assets/create.png" />
+              <img src="../assets/album2.jpg" />
               <h4>Playlist Name</h4>
             </div>
             <div class="card-play-button">
-              <i class="material-icons">keyboard_arrow_right</i>
+              <i class="material-icons">play_arrow</i>
             </div>
           </div>
-          <div class="playlist-card">
+          <div class="playlist-card hide-medium">
             <div class="playlist-card-left">
-              <img src="../assets/create.png" />
+              <img src="../assets/album2.jpg" />
               <h4>Playlist Name</h4>
             </div>
             <div class="card-play-button">
-              <i class="material-icons">keyboard_arrow_right</i>
+              <i class="material-icons">play_arrow</i>
             </div>
           </div>
-          <div class="playlist-card">
+          <div class="playlist-card hide-medium">
             <div class="playlist-card-left">
-              <img src="../assets/create.png" />
+              <img src="../assets/album2.jpg" />
               <h4>Playlist Name</h4>
             </div>
             <div class="card-play-button">
-              <i class="material-icons">keyboard_arrow_right</i>
+              <i class="material-icons">play_arrow</i>
+            </div>
+          </div>
+          <div class="playlist-card hide-small">
+            <div class="playlist-card-left">
+              <img src="../assets/album2.jpg" />
+              <h4>Playlist Name</h4>
+            </div>
+            <div class="card-play-button">
+              <i class="material-icons">play_arrow</i>
+            </div>
+          </div>
+          <div class="playlist-card hide-small">
+            <div class="playlist-card-left">
+              <img src="../assets/album2.jpg" />
+              <h4>Playlist Name</h4>
+            </div>
+            <div class="card-play-button">
+              <i class="material-icons">play_arrow</i>
+            </div>
+          </div>
+        </div>
+        <div class="content-head">
+          <h3 style="font-weight: bold;">Recently Played</h3>
+          <h5 class="content-head-see">
+            SEE ALL
+          </h5>
+        </div>
+        <div class="content-recently">
+          <div class="recently-card">
+            <div class="recently-card-top">
+              <img src="../assets/album.jpg" />
+              <div class="card-play-button recently-button">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+            <div class="recetly-card-bottom">
+              <h4>Playlist Name</h4>
+              <p>by User Name</p>
+            </div>
+          </div>
+          <div class="recently-card">
+            <div class="recently-card-top">
+              <img src="../assets/album.jpg" />
+              <div class="card-play-button recently-button">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+            <div class="recetly-card-bottom">
+              <h4>Playlist Name</h4>
+              <p>by User Name</p>
+            </div>
+          </div>
+          <div class="recently-card hide-last2">
+            <div class="recently-card-top">
+              <img src="../assets/album.jpg" />
+              <div class="card-play-button recently-button">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+            <div class="recetly-card-bottom">
+              <h4>Playlist Name</h4>
+              <p>by User Name</p>
+            </div>
+          </div>
+          <div class="recently-card hide-last2">
+            <div class="recently-card-top">
+              <img src="../assets/album.jpg" />
+              <div class="card-play-button recently-button">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+            <div class="recetly-card-bottom">
+              <h4>Playlist Name</h4>
+              <p>by User Name</p>
+            </div>
+          </div>
+          <div class="recently-card hide-last">
+            <div class="recently-card-top">
+              <img src="../assets/album.jpg" />
+              <div class="card-play-button recently-button">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+            <div class="recetly-card-bottom">
+              <h4>Playlist Name</h4>
+              <p>by User Name</p>
+            </div>
+          </div>
+          <div class="recently-card hide-last">
+            <div class="recently-card-top">
+              <img src="../assets/album.jpg" />
+              <div class="card-play-button recently-button">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+            <div class="recetly-card-bottom">
+              <h4>Playlist Name</h4>
+              <p>by User Name</p>
+            </div>
+          </div>
+          <div class="recently-card hide-last">
+            <div class="recently-card-top">
+              <img src="../assets/album.jpg" />
+              <div class="card-play-button recently-button">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+            <div class="recetly-card-bottom">
+              <h4>Playlist Name</h4>
+              <p>by User Name</p>
             </div>
           </div>
         </div>
@@ -117,6 +227,7 @@ export default {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-shrink: 1;
   position: relative;
   color: white;
 }
@@ -219,25 +330,28 @@ export default {
 .content {
   margin-top: 3rem;
   margin-left: 3.5rem;
-  margin-right: 1.25rem;
+  margin-right: 2rem;
+}
+
+.content-head {
+  display: flex;
+  justify-content: space-between;
 }
 
 .content-playlists {
-  /* display: grid;
+  display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem; */
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
 }
 
 .playlist-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 300px;
-  height: 100px;
+  width: 100%;
+  height: 85px;
   background-color: var(--light);
   border-radius: 0.25rem;
   margin-right: 2rem;
@@ -245,17 +359,19 @@ export default {
   padding-right: 1.5rem;
   padding-bottom: 5px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .playlist-card h4 {
+  font-size: 1.1rem;
   font-weight: bold;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 .playlist-card img {
-  width: 100px;
-  height: 100px;
+  width: 85px;
+  height: 85px;
 }
 
 .playlist-card:hover {
@@ -272,21 +388,134 @@ export default {
   display: flex;
   align-items: center;
   width: 100%;
+  opacity: 1;
 }
 
 .card-play-button {
   background-color: var(--green);
-  width: 52px;
-  height: 52px;
-  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   opacity: 0;
   transition: 0.3s;
   box-shadow: 0 8px 4px -4px black;
 }
-@media only screen and (max-width: 1280px) {
+
+.card-play-button:hover {
+  width: 44px;
+  height: 44px;
+
+  cursor: default;
+}
+.hide-medium {
+  display: flex;
+}
+
+.hide-small {
+  display: flex;
+}
+
+h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content-head-see {
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: var(--lightest);
+}
+
+.content-recently {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  transition: 1s;
+}
+
+.recently-card {
+  width: 180px;
+  height: 260px;
+  background-color: var(--dark);
+  border-radius: 0.25rem;
+  padding: 1rem;
+  transition: 0.3s;
+  margin-right: 1.5rem;
+}
+
+.recently-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.recetly-card-bottom {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.recetly-card-bottom h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.recetly-card-bottom p {
+  font-size: 0.75rem;
+  font-weight: 200;
+  color: var(--lightest);
+}
+
+.recently-card:hover {
+  background-color: var(--light);
+  transition: 0.3s;
+}
+
+.recently-card:hover .card-play-button {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.recently-button {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 90px;
+}
+
+.hide-last {
+  display: block;
+}
+
+.hide-last2 {
+  display: block;
+}
+
+@media only screen and (max-width: 1445px) {
+  .content-playlists {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .hide-medium {
+    display: flex;
+  }
+  .hide-small {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 980px) {
   .profile-name {
     display: none;
   }
@@ -299,6 +528,32 @@ export default {
   .profile-dropdown {
     width: 200px;
     margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1145px) {
+  .content-playlists {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .hide-medium {
+    display: none;
+  }
+  .hide-small {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .hide-last {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .hide-last2 {
+    display: none;
   }
 }
 </style>
