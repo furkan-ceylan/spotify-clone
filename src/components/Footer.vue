@@ -10,8 +10,9 @@ export default {
 
 <style>
 .footer {
-  height: 12vh;
+  height: 10vh;
   background-color: var(--dark);
   flex: none;
+  position: fixed;
 }
 </style>

@@ -16,7 +16,7 @@
 }
 
 .app2 {
-  height: 88vh;
+  height: 90vh;
   background-color: #121212;
   display: flex;
 }
