@@ -9,6 +9,14 @@
   </div>
 </template>
 
+<script>
+import Footer from './components/Footer'
+
+export default {
+  components: { Footer },
+}
+</script>
+
 <style scoped>
 .app {
   height: 100vh;
@@ -19,5 +27,9 @@
   height: 90vh;
   background-color: #121212;
   display: flex;
+}
+
+.footer {
+  height: 10vh;
 }
 </style>
