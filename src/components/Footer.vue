@@ -13,6 +13,33 @@
       >
       <i class="material-icons">picture_in_picture_alt</i>
     </div>
+    <div class="middle">
+      <div class="play-buttons">
+        <button class="play-button">
+          <i class="material-icons action-button">shuffle</i>
+        </button>
+        <button class="play-button">
+          <i class="material-icons action-button">skip_previous</i>
+        </button>
+        <button class="play-button">
+          <i class="material-icons action-button play">play_circle</i>
+        </button>
+        <button class="play-button">
+          <i class="material-icons action-button">skip_next</i>
+        </button>
+        <button class="play-button">
+          <i class="material-icons action-button">repeat</i>
+        </button>
+      </div>
+      <div class="play-bar">
+        <p class="time">0:28</p>
+        <div class="play-bar-inside">
+          <div class="play-bar-inside2"></div>
+          <div class="play-bar-circle"></div>
+        </div>
+        <p class="time">5:45</p>
+      </div>
+    </div>
     <div class="right-buttons">
       <i class="material-icons">playlist_play</i>
       <i class="material-icons">important_devices</i>
@@ -40,6 +67,7 @@ export default {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: white;
+  border-top: var(--light) 1px solid;
 }
 
 .left-song-info {
@@ -90,5 +118,88 @@ export default {
   border-radius: 9999px;
   margin-right: 2rem;
   background-color: var(--lightest);
+}
+
+.play-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  font-size: 1.2rem;
+  color: var(--lightest);
+  margin-right: 1rem;
+}
+
+.action-button:hover {
+  color: white;
+}
+
+.play {
+  width: 50px;
+  height: 50px;
+  font-size: 2.5rem;
+  padding-left: 8px;
+  color: white;
+  display: flex;
+}
+
+.play:hover {
+  font-size: 2.7rem;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.play-bar {
+  width: 100%;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.play-bar-inside {
+  width: 50rem;
+  height: 3px;
+  border-radius: 9999px;
+  background-color: #454545;
+  display: flex;
+  align-items: center;
+}
+
+.play-bar-inside:hover .play-bar-inside2 {
+  background-color: var(--green);
+}
+
+.play-bar-inside:hover .play-bar-circle {
+  opacity: 1;
+}
+
+.play-bar-inside2 {
+  width: 20%;
+  height: 4px;
+  border-radius: 9999px;
+  background-color: var(--lightest);
+}
+
+.play-bar-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background-color: white;
+  opacity: 0;
+}
+
+.time {
+  font-size: 0.75rem;
+  color: var(--lightest);
+  margin-right: 5px;
+  margin-left: 5px;
 }
 </style>
