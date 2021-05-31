@@ -21,8 +21,14 @@
         <button class="play-button">
           <i class="material-icons action-button">skip_previous</i>
         </button>
-        <button class="play-button">
-          <i class="material-icons action-button play">play_circle</i>
+        <button
+          class="play-button"
+          @click.prevent="playSong(), (isPaused = !isPaused)"
+        >
+          <i class="material-icons action-button play" v-if="!isPaused"
+            >play_circle</i
+          >
+          <i class="material-icons action-button play" v-else>pause_circle</i>
         </button>
         <button class="play-button">
           <i class="material-icons action-button">skip_next</i>
@@ -52,12 +58,23 @@
 <script>
 export default {
   name: 'Footer',
+  data() {
+    return {
+      isPaused: false,
+    }
+  },
+  methods: {
+    playSong() {
+      var audio = new Audio('california.mp3')
+      audio.play()
+    },
+  },
 }
 </script>
 
 <style>
 .footer {
-  height: 10vh;
+  height: 11vh;
   background-color: var(--dark);
   display: flex;
   position: fixed;
@@ -153,15 +170,12 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.7rem;
 }
 
 .play-bar {
   width: 100%;
-  margin-top: 0.5rem;
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
 .play-bar-inside {
