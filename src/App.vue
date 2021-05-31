@@ -24,12 +24,12 @@ export default {
 }
 
 .app2 {
-  height: 90vh;
+  height: 89vh;
   background-color: #121212;
   display: flex;
 }
 
 .footer {
-  height: 10vh;
+  height: 11vh;
 }
 </style>
