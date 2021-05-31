@@ -32,7 +32,7 @@
           </div>
           <div v-else class="not-on-page">
             <span class="material-icons w3-xxlarge">bar_chart</span>
-            <span class="nav-icon">Collection</span>
+            <span class="nav-icon">Your Library</span>
           </div>
         </router-link>
       </div>
