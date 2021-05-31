@@ -307,7 +307,7 @@ export default {
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 2rem;
+  grid-gap: 2.5rem;
 }
 
 .playlist-card {
@@ -472,7 +472,6 @@ h5:hover {
   .content-playlists {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 2rem;
   }
 
   .hide-medium {
@@ -506,7 +505,6 @@ h5:hover {
   .content-playlists {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 2rem;
   }
   .hide-small {
     display: none;
