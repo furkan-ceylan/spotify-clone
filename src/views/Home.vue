@@ -17,7 +17,7 @@
           <div class="profile">
             <button @click.prevent="showDropDown = !showDropDown">
               <img class="profile-photo" src="../assets/profilePhoto.png" />
-              <span class="profile-name">User Name</span>
+              <span class="profile-name">furkan</span>
               <i class="material-icons" v-if="!showDropDown">
                 arrow_drop_down
               </i>
@@ -269,7 +269,7 @@ export default {
 .profile-button {
   width: 100%;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   text-align: left;
   padding-left: 1rem;
   padding-bottom: 0.75rem;
