@@ -85,7 +85,7 @@ export default {
   padding-bottom: 1rem;
   color: white;
   border-top: var(--light) 1px solid;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .left-song-info {
